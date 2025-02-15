@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 74, 74);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.duck-image {
+    display: flex;
+    justify-content: center;
+}
+
+.duck-image img {
+    border-radius: 100%;
+    width: 130px;
+}
+
+.paragraph {
+    display: flex;
+    max-width: 23em;
+    padding-left: 5em;
+    padding-top: 7em;
+}
+
+.paragraph a,
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+.list ol {
+    list-style: none;
+    padding: 0em 5em 5em;
+}
+
+.list ol li {
+    font-size: 1.5em;
+}
+
+#css {
+    display: flex;
+    justify-content: center;
+}
+
+#js {
+    display: flex;
+    justify-content: right;
+}
+
+
+#needs {
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+}
+
+#needs ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 0.6em;
+    gap: 10px;
+
+}
+
+#needs ul li {
+    padding: 5px;
+
+}
+
+footer {
+    padding-left: 5em;
+}
